@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"; 
 import { collect, share } from "../constants/constants";
 
 function InformationWeCollect() {
