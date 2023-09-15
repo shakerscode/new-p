@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import BlogContent from "../components/compilance/BlogContent";
-import BusinessPolicy from "../components/compilance/BusinessPolicy";
-import Content from "../components/compilance/Content";
-import Hero from "../components/compilance/Hero";
-import Location from "../components/compilance/Location";
-import Trust from "../components/compilance/Trust";
+import BlogContent from "../components/compliance/BlogContent";
+import BusinessPolicy from "../components/compliance/BusinessPolicy";
+import Content from "../components/compliance/Content";
+import Hero from "../components/compliance/Hero";
+import Location from "../components/compliance/Location";
+import Trust from "../components/compliance/Trust";
 
 
 function Compliance() {

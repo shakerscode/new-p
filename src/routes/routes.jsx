@@ -11,6 +11,7 @@ import NotFound from "../pages/NotFound";
 import AllUserSingleBlog from "../pages/SingleBlog";
 import Compliance from "../pages/Compliance";
 import PrivacyAndPolicy from "../pages/PrivacyAndPolicy";
+import Price from "../pages/Price";
 
 
 //new dynamic routing system of React
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/pricing",
+        element: <Price />,
       },
       {
         path: "/contact",

@@ -209,3 +209,14 @@ input:focus, textarea:focus, select:focus {
 }
 
  
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent; 
+  border-right: 20px solid transparent;  
+  border-bottom: 22px solid rgb(56, 133, 248); 
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  transform: rotate(-120deg)
+}

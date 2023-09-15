@@ -37,7 +37,6 @@ export const share = [
   },
 ];
 
-
 export const collect = [
   {
     header: "Our Service",
@@ -58,5 +57,123 @@ export const collect = [
   {
     header: "How We Use Your Information",
     text: "We use the information that we collect to operate and maintain our Service. We use cookies, clear gifs, and log file information to: (a) monitor the effectiveness of our Service (b) monitor aggregate metrics such as total number of visitors, traffic, and demographic patterns, (c) diagnose or fix technology problems.",
+  },
+];
+
+export const compliance = [
+  {
+    title: "Certifications and Audits:",
+    subtitle: "We take data security and privacy seriously.",
+    post: "We take data security and privacy seriously. We hold industry certifications that validate our commitment to safeguarding your information. Our compliance audits and third-party assessments stand as a testament to our dedication. These certifications are more thansymbols – they are a reflection of our proactive approach towards providing you with a secure and trusted environment.",
+  },
+  {
+    title: "Secure Cloud Solutions:",
+    subtitle:
+      "Our secure cloud solutions are built upon industry-leading frameworks...",
+    post: "Our secure cloud solutions are built upon industry-leading frameworks such as AWS Well-Architected Framework and CIS Benchmarks. These frameworks provide a solid foundation for robust security practices, ensuring that your cloud infrastructure is fortified against threats and vulnerabilities.",
+  },
+  {
+    title: "Evolving with the Industry:",
+    subtitle: "At the forefront of industry evolution, we leverage AWS's...",
+    post: "At the forefront of industry evolution, we leverage AWS's cutting-edge technologies and services to ensure your cloud environment stays agile and secure. By aligning with AWS best practices and constantly adapting to emerging trends, we guarantee that your cloud solutions remain optimized, compliant, and future-proof.",
+  },
+  {
+    title: "Personalized Compliance and Ongoing Commitment:",
+    subtitle: "Recognizing the distinct compliance needs of every business",
+    post: "Recognizing the distinct compliance needs of every business, our approach is tailored to your specific requirements. This ensures you can concentrate on your core objectives, while we expertly manage the complexities of compliance. Our journey towards compliance excellence is ongoing, as we continually review and enhance our policies, practices, and partnerships to provide unwavering compliance leadership.",
+  },
+];
+
+export const servicehelpLeft = [
+  {
+    title: "24/7 Cloud Monitoring",
+    post: "Hiring one specialist in-house restricts your ability to monitor performance and risk. By choosing an external partner for your cloud services small business needs, you get anytime, everytime monitoring.",
+  },
+  {
+    title: "Control Your Cloud Services Costs",
+    post: "Don't overspend on things you don't need. We'll ensure you only pay for what you use.",
+  },
+  {
+    title: "Lower Recruitment Costs",
+    post: "You hire three certified Cloud specialists for the price of one full-time DevOps.",
+  },
+];
+
+export const servicehelpRight = [
+  {
+    title: "Release Software Faster",
+    post: "A dedicated team will ensure your infrastructure enables you to release software faster.",
+  },
+  {
+    title: "Easier Infrastructure Scalability",
+    post: "Scale your operations and infrastructure according to your business growth needs.",
+  },
+  {
+    title: "Guaranteed Availability",
+    post: "Ensure that your customers and users are never frustrated by a poor user experience",
+  },
+];
+
+export const packContent = [
+  {
+    title: "Infrastructure Setup",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+  {
+    title: "Growth Roadmap",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+  {
+    title: "24/7 Monitoring",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+  {
+    title: "Availability",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+  {
+    title: "Cost Control",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+  {
+    title: "Automation",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+  {
+    title: "Ongoing Support",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+  {
+    title: "Certified Consultancy",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+  {
+    title: "Onboarding",
+    post: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus exercitationem harum magni. Assumenda unde tempore, fugiat distinctio quibusdam asperiores?",
+  },
+];
+
+
+export const servicehelpBottomOne = [
+  {
+    title: "Control your cloud services costs", 
+  },
+  {
+    title: "Release software faster", 
+  },
+  {
+    title: "Scale your business faster", 
+  },
+];
+
+export const servicehelpBottomTwo = [
+  {
+    title: "Respond to disruption faster", 
+  },
+  {
+    title: "Optimize your availability", 
+  },
+  {
+    title: "Protect your business-critical data", 
   },
 ];

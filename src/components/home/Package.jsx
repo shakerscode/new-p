@@ -92,7 +92,7 @@ export default function Package() {
             data-aos-duration="1000"
             className="w-full md:w-1/2 lg:w-1/3 px-4 md:pb-10"
           >
-            <div className=" bg-blue-200 h-full rounded-3xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-md py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10 flex flex-col justify-around">
+            <div className=" bg-blue-200 h-full rounded-3xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-md py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10 flex flex-col justify-center">
               <div>
                 <span className="text-primary text-center font-semibold text-xl block mb-4">
                   Customized Package
