@@ -207,6 +207,14 @@ input:focus, textarea:focus, select:focus {
   background: rgb(25,15,195);
   background: linear-gradient(90deg, rgba(25,15,195,1) 0%, rgba(39,39,217,1) 35%, rgba(0,212,255,1) 100%); 
 }
+.pricing-bg{
+  background: rgb(146,236,240);
+  background: linear-gradient(90deg, rgba(146,236,240,1) 0%, rgba(67,209,230,1) 42%, rgba(0,154,185,1) 100%); 
+}
+.essential-pack-bg{
+  background: rgb(146,173,226);
+  background: linear-gradient(90deg, rgba(146,173,226,1) 0%, rgba(103,136,246,1) 42%, rgba(23,132,185,1) 100%);  
+}
 
  
 .triangle-up {

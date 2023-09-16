@@ -5,17 +5,17 @@ import ArrowRight from "../icons/ArrowRight";
 
 function EssentialPack() {
   return (
-    <section className="bg-blue-200 px-6 py-10 md:py-12 md:p-12 mb-16">
+    <section className="essential-pack-bg px-6 py-10 md:py-12 md:p-12 mb-16 rounded-3xl ">
       <div className="block md:flex gap-16">
-        <div className="w-full md:w-1/3">
-          <p className="text-[9px] w-fit bg-yellow-300 py-1 font-bold px-2 text-gray-800 shadow">
+        <div className="w-full md:w-1/3 text-white">
+          <p className="text-[9px] w-fit bg-yellow-300 py-1 font-bold px-2 rounded-md text-gray-800 shadow">
             LIMITED OFFER
           </p>
-          <h3 className="text-3xl py-3 font-bold text-gray-800">
+          <h3 className="text-3xl py-3 font-bold text-white">
             Startup Cloud <br /> Services Essentials <br /> Pack
           </h3>
-          <div className="p-2 bg-blue-700 text-center">
-            <div className="border-[1px] border-solid border-gray-400 py-2">
+          <div className="p-2 bg-blue-700 text-center rounded-lg">
+            <div className="border-[1px] border-solid border-gray-400 py-2 rounded-lg">
               <p className="text-[12px] text-gray-300 font-semibold">
                 <span className="text-lg text-white font-bold">$2,000</span>{" "}
                 {""}per month*
@@ -35,11 +35,11 @@ function EssentialPack() {
           <p className="text-[10px] py-1 text-blue-500 italic underline cursor-pointer">
             *Terms and Conditions Apply
           </p>
-          <button className="my-4 hover:bg-gray-600 hover:text-white  flex items-center gap-2 text-[12px] border-[1px] border-solid border-gray-600 font-semibold px-5 py-2 text-gray-700">
+          <button className="my-4 rounded-lg hover:bg-gray-600 hover:text-white  flex items-center gap-2 text-[12px] border-[1px] border-solid border-white font-semibold px-5 py-2 text-white">
             Contact Us <LongLeftArrow size={16} />
           </button>
         </div>
-        <div className="w-full md:w-2/3">
+        <div className="w-full md:w-2/3 text-white">
           <h6 className="pr-5 font-bold text-sm">
             All the cloud services computing solutions your startup needs,
             packaged for <br /> optimal performances and costs:
@@ -51,7 +51,7 @@ function EssentialPack() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100 mt-10 p-10">
+      <div className="bg-gray-100 mt-10 p-10 rounded-3xl">
       <h2 className="text-xl font-bold text-gray-800">
         How Do Our Managed Cloud Services Help You?
       </h2>
@@ -71,7 +71,7 @@ function EssentialPack() {
           ))}
         </div>
       </div>
-      <button className="mt-8 hover:bg-gray-600 hover:text-white  flex items-center gap-2 text-[12px] border-[1px] border-solid border-gray-600 font-bold px-5 py-3 text-gray-700">
+      <button className="mt-8 rounded-lg hover:bg-gray-600 hover:text-white  flex items-center gap-2 text-[12px] border-[1px] border-solid border-gray-600 font-bold px-5 py-3 text-gray-700">
             Get a Free Small Business Cloud Services Assessment <div className="hidden md:block"><LongLeftArrow size={16} /></div>
           </button>
       </div>
@@ -91,17 +91,17 @@ const AccordionItems = ({ header, text }) => {
   return (
     <div
       onClick={() => handleToggle()}
-      className="single-faq mb-2 md:mb-2 w-full border-solid border-[1px] border-gray-400 p-4   cursor-pointer"
+      className="single-faq mb-2 md:mb-2 w-full border-solid border-[1px] border-white p-5 rounded-xl cursor-pointer"
     >
       <button
         className={`faq-btn flex justify-between items-center w-full text-left`}
       >
         <div className="w-full">
-          <h4 className="text-md md:text-lg font-semibold text-gray-900">
+          <h4 className="text-md md:text-lg font-semibold text-white">
             {header}
           </h4>
         </div>
-        <div className=" flex w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-gray-900">
+        <div className=" flex w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-white">
           <svg
             className={`duration-200 ease-in-out fill-primary stroke-primary ${
               active ? "rotate-180" : ""

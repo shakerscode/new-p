@@ -2,7 +2,7 @@ import { servicehelpLeft, servicehelpRight } from "../constants/constants";
 
 function ServiceHelp() {
   return (
-    <section className="bg-gray-200 px-5 pt-14 md:pt-12 md:p-12 my-16">
+    <section className="bg-gray-200 px-5 pt-14 md:pt-12 md:p-12 my-16 rounded-3xl">
       <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
         How Do Our Managed Cloud Services Help You?
       </h2>
