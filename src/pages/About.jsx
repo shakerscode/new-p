@@ -3,6 +3,8 @@ import AboutTopSection from "../components/about/AboutTopSection"
 import Follow from "../components/about/Follow"
 import Info from "../components/about/Info"
 import WorkWithUs from "../components/about/WorkWithUs"
+import OurValue from "../components/about/OurValue"
+import Numbers from "../components/about/Numbers"
 
 const About = () => {
   
@@ -13,9 +15,11 @@ const About = () => {
   return (
     <div className="min-h-screen ">
       <AboutTopSection />
+      <OurValue />
+      <Numbers />
+      <WorkWithUs />
       <Follow/>
       <Info/> 
-      <WorkWithUs />
     </div>
   )
 }

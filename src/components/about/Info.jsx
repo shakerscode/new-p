@@ -6,17 +6,7 @@ const content = [
     title: "Blog",
     content:
       "Read up on product innovations and updates, company announcements, community spotlights, and more. ",
-  },
-  {
-    title: "Brand assets",
-    content:
-      "Want to use Mona the octocat? Looking for the right way to display the GitHub logo for your latest project? Download the assets and see how and where to use them. ",
-  },
-  {
-    title: "Community stories",
-    content:
-      "Developers are building the future on GitHub every day, explore their stories, celebrate their accomplishments, and find inspiration for your own work. ",
-  },
+  }, 
   {
     title: "Customer stories",
     content:
@@ -26,12 +16,7 @@ const content = [
     title: "Careers",
     content:
       "Help us build the home for all developers. We’re a passionate group of people dedicated to software development and collaboration. Come join us! ",
-  },
-  {
-    title: "Diversity, Inclusions & Belonging",
-    content:
-      "We are dedicated to building a community and team that reflects the world we live in and pushes the boundaries of software innovation. Learn more about our DI&B efforts. ",
-  },
+  }, 
 ];
 
 function Info() {

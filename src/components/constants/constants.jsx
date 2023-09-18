@@ -153,27 +153,88 @@ export const packContent = [
   },
 ];
 
-
 export const servicehelpBottomOne = [
   {
-    title: "Control your cloud services costs", 
+    title: "Control your cloud services costs",
   },
   {
-    title: "Release software faster", 
+    title: "Release software faster",
   },
   {
-    title: "Scale your business faster", 
+    title: "Scale your business faster",
   },
 ];
 
 export const servicehelpBottomTwo = [
   {
-    title: "Respond to disruption faster", 
+    title: "Respond to disruption faster",
   },
   {
-    title: "Optimize your availability", 
+    title: "Optimize your availability",
   },
   {
-    title: "Protect your business-critical data", 
+    title: "Protect your business-critical data",
   },
 ];
+
+//about value
+import pragmatism from "../../assets//imgs/pragmatism.png";
+import teamIcon from "../../assets/imgs/team-icon.png";
+import improvement from "../../assets/imgs/improvment.png";
+
+export const aboutValueData = [
+  {
+    image: pragmatism,
+    title: "Pragmatism",
+    desc: "Always keeping the objective of a task in mind allows us as efficient as possible in implementing the solution.",
+  },
+  {
+    image: teamIcon,
+    title: "Team Spirit",
+    desc: "Proving feedbacks to colleagues and clients is not always easy, but it helps the entire team perform better.",
+  },
+  {
+    image: improvement,
+    title: "Desire to improve",
+    desc: "Every problem is an opportunity to learn and grow. Asking for help is an act humility and desire to progress.",
+  },
+];
+
+export const speakingNumbers = [
+  {
+    numbers:"$30+ billion",
+    desc:"processed by our fintech solutions",
+    bg:"bg-cyan-100",
+    text:"text-sky-950"
+  },
+  {
+    numbers:"50+ million",
+    desc:"weekly interaction in our digital products",
+    bg:"bg-blue-950",
+    text:"text-cyan-100"
+  },
+  {
+    numbers:"13+",
+    desc:"years of software expertise",
+    bg:"bg-yellow-200",
+    text:"black"
+  },
+  {
+    numbers:"140+",
+    desc:"core team members",
+    bg:"bg-black",
+    text:"text-cyan-100"
+  },
+  {
+    numbers:"100+",
+    desc:"successfully delivered projects",
+    bg:"bg-indigo-300",
+    text:"text-black"
+  },
+  {
+    numbers:"6",
+    desc:"office around the world",
+    bg:"bg-sky-400",
+    text:"text-white"
+  },
+]
