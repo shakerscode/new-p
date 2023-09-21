@@ -55,7 +55,7 @@ function Slider() {
               key={i}
                 src={logo}
                 alt="company-logos"
-                className="splide__slide w-32  h-32 "
+                className="splide__slide w-32  h-32 rounded-xl"
               /> 
           ))}
         </ul>

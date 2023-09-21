@@ -1,9 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
-import AdminLayout from "../layouts/AdminLayout";
-import About from "../pages/About";
-import AllBlogs from "../pages/Admin/AllBlogs";
-import Auth from "../pages/Admin/Auth";
+import App from "../App"; 
+import About from "../pages/About"; 
 import BlogPage from "../pages/Blog";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
@@ -53,21 +50,6 @@ const router = createBrowserRouter([
         element: <AllUserSingleBlog />,
       },
     ],
-  },
-  {
-    path: "/admin",
-    element: <AdminLayout />,
-    children: [
-      {
-        index: true,
-        path: "/admin",
-        element: <AllBlogs />,
-      },
-    ],
-  },  
-  {
-    path: "/admin/auth",
-    element: <Auth />,
   },
   {
     path: "*",

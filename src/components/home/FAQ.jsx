@@ -1,5 +1,5 @@
 import { useState } from "react"; 
-import CommonSectionHead from "../../pages/Admin/components/Common/CommonSectionHead";
+import CommonSectionHead from "../common/CommonSectionHead";
 
 export default function QuestionAndAnswer() {
 

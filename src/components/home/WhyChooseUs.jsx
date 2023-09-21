@@ -4,7 +4,7 @@ import EngineerImage from "../../assets/imgs/4.png";
 import InnovationImage from "../../assets/imgs/5.png";
 import ClientImage from "../../assets/imgs/6.png";
 import AgilityImage from "../../assets/imgs/7.png";
-import CommonSectionHead from "../../pages/Admin/components/Common/CommonSectionHead";
+import CommonSectionHead from "../common/CommonSectionHead";
 
 export default function WhyChooseUs() {
   const leftData = [
@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
             {leftData.map((data, index) => (
               <div
                 data-aos="fade-right"
-                data-aos-duration="1000"
+                data-aos-duration="900"
                 key={index}
                 className="flex justify-between mb-10 md:mb-4"
               >

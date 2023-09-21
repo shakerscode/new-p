@@ -37,7 +37,9 @@ export default function Header({ setIsModalOpen }) {
               }}
               onMouseOver={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
-              className="flex cursor-pointer justify-center items-center gap-1 md:gap-4 py-2 px-3 md:py-[13px] md:px-[21px] bg-[#FD5B1D]  text-sm md:text-md lg:text-md text-white rounded-lg font-bold border-[1px] border-solid border-[#FD5B1D] hover:bg-white hover:text-[#243499] ml-2 transition ease-in-out delay-450 shadow-md"
+              className="flex cursor-pointer justify-center items-center gap-1 md:gap-4 py-2 px-3 md:py-[13px] md:px-[21px] bg-[#FD5B1D]  text-sm 
+              md:text-md lg:text-md text-white rounded-lg font-bold border-[1px] border-solid border-[#FD5B1D] hover:bg-white hover:text-[#243499] 
+              ml-2 transition ease-in-out delay-450 shadow-md"
             >
               <p>Start Today</p>
               <div
