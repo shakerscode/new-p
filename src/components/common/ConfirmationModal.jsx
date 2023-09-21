@@ -3,8 +3,8 @@ import XClose from "../icons/XClose";
 function ConfirmationModal({ url, setIsModalOpen }) {
   return (
     <div className="z-50 fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
-      <div className="bg-white md:pt-8 flex-col flex justify-center items-center px-5 nd:px-8 pb-0 md:pb-4 rounded-lg shadow-md w-[90%] md:w-[50%]  lg:w-2/4  h-[30%] overflow-y-auto relative">
-        <h3 className="text-2xl text-center">
+      <div className="bg-white md:pt-8 flex-col flex justify-center items-center px-5 nd:px-8 pb-0 md:pb-4 rounded-lg shadow-md w-[90%] md:w-[50%]  lg:w-2/4  h-[50%] overflow-y-auto relative">
+        <h3 className="text-lg md:text-2xl text-center">
           Please book a call or email us for further discussion.
         </h3>
         <div className="flex justify-center items-center gap-3 mt-4">

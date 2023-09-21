@@ -1,11 +1,4 @@
-import { useEffect, useState } from "react";
-import bgImage from "../assets/imgs/bg.png";
-import { useGetBlogsQuery } from "@/redux/api/apiSlice";
-import Author from "../components/icons/Author";
-import Comments from "../components/icons/Comments";
-import { Link } from "react-router-dom";
-import formatDateAndTime from "../utils/getDate";
-import blogHero from "../assets/imgs/bloghero.png";
+import { useEffect, useState } from "react"; 
 import XClose from "../components/icons/XClose";
 
 export default function BlogPage() {
@@ -16,14 +9,14 @@ export default function BlogPage() {
   }, []);
 
   return (
-    <div className="max-w-[1280px] mx-auto px-6 md:px-0 lg:px-0 xl:px-0 my-10 z-10 w-full h-[600px] bg-cover bg-center rounded-2xl relative">
+    <div className="max-w-[1280px] mx-auto px-6 md:px-0 lg:px-0 xl:px-0 my-10 z-10 w-full md:h-[600px] rounded-2xl">
       {/* <img src={blogHero} alt="blog-hero" className="w-full h-full rounded-2xl"/> */}
-      <div className="bg-sky-400 w-full h-full absolute top-0 bottom-0 rounded-2xl">
+      <div className="bg-sky-400 w-full h-full rounded-2xl">
         <div className="w-full h-full md:px-12 px-5 py-16 text-white flex justify-center items-center flex-col">
           <h3
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="py-3 text-center text-white text-3xl font-bold"
+            className="py-3 text-center text-white text-xl md:text-3xl font-bold"
           >
             Our All Blog Are In Medium. Please Read Them From There.
           </h3>
@@ -54,8 +47,8 @@ export default function BlogPage() {
 function ConfirmationModal({ url, setIsModalOpen }) {
   return (
     <div className="z-50 fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
-      <div className="bg-white md:pt-8 flex-col flex justify-center items-center px-5 nd:px-8 pb-0 md:pb-4 rounded-lg shadow-md w-[90%] md:w-[50%]  lg:w-2/4  h-[30%] overflow-y-auto relative">
-        <h3 className="text-2xl text-center">
+      <div className="bg-white md:pt-8 flex-col flex justify-center items-center px-5 nd:px-8 pb-0 md:pb-4 rounded-lg shadow-md w-[90%] md:w-[50%]  lg:w-2/4  h-[50%] overflow-y-auto relative">
+        <h3 className="text- xl md:text-2xl text-center">
           Are you sure you want to read our blogs?
         </h3>
         <div className="flex justify-center items-center gap-3 mt-4">

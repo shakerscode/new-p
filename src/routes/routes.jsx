@@ -4,8 +4,7 @@ import About from "../pages/About";
 import BlogPage from "../pages/Blog";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
-import NotFound from "../pages/NotFound";
-import AllUserSingleBlog from "../pages/SingleBlog";
+import NotFound from "../pages/NotFound"; 
 import Compliance from "../pages/Compliance";
 import PrivacyAndPolicy from "../pages/PrivacyAndPolicy";
 import Price from "../pages/Price";
@@ -44,11 +43,7 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <BlogPage />,
-      }, 
-      {
-        path: "/blog/:id",
-        element: <AllUserSingleBlog />,
-      },
+      },  
     ],
   },
   {
