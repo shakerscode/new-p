@@ -11,7 +11,7 @@ export default function Header({ setIsModalOpen }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <div className="z-10 md:px-8 px-3 bg-[#aecce3]">
+    <div className="z-10 md:px-8 px-3 bg-white shadow-sm">
       <div className="max-w-[1280px] mx-auto h-[90px]">
         <div className="flex justify-between items-center h-full">
           <MobileMenu />

@@ -123,7 +123,7 @@ const AccordionItems = ({ header, text }) => {
       <div
         className={`duration-200 ease-in-out ${active ? "block" : "hidden"}`}
       >
-        <p className="py-3 text-[14px] md:text-base leading-relaxed text-gray-800 text-start">
+        <p className="py-3 text-[14px] md:text-base leading-relaxed text-white text-start">
           {text}
         </p>
       </div>

@@ -35,7 +35,7 @@ export default function Package() {
                 <span className="text-white text-center font-semibold text-2xl block mb-4">
                   Customized Package
                 </span>
-                <div className="pb-4 mb-5 mt-12 text-center text-white">
+                <div className="pb-2 mb-5 mt-5 text-center text-white">
                   <p>
                     Shape Your Cloud Solution to Match Your Business Needs
                     Perfectly.
