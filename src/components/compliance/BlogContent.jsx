@@ -28,7 +28,7 @@ function BlogContent() {
           ))}
         </div>
         <div className="w-full md:w-2/4 h-full flex justify-center items-center">
-          <p className="px-24 text-xl text-center">{compliance[contentIndex].post}</p>
+          <p className="md:px-24 px-3 text-lg md:text-xl text-center">{compliance[contentIndex].post}</p>
         </div>
       </div>
     </section>

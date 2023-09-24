@@ -7,14 +7,14 @@ export default function ExpertEngineer() {
     title3: "Expert Engineers",
   };
   return (
-    <section id="team" className="bg-[#B3B9DC] pb-24 px-8 w-full">
+    <section id="team" className="bg-[#B3B9DC] pb-24 px-4 md:px-8 w-full">
       <div className="mx-auto max-w-[1280px] w-full">
         {/* Re-used component */}
         <CommonSectionHead props={titles} />
         <div
           data-aos="zoom-out-up"
           data-aos-duration="1000"
-          className="w-auto mt-32 md:mt-0 lg:mt-0 xl:mt-0 px-6 lg:px-0 lg:w-[600px] mx-auto"
+          className="w-auto mt-20 md:mt-0 lg:mt-0 xl:mt-0 md:px-6 lg:px-0 lg:w-[600px] mx-auto"
         >
           <p className="mt-16 lg:mt-14 text-center text-lg">
             Our dedicated team comprises cloud architects, system engineers,

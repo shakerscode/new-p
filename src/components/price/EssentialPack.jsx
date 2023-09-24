@@ -1,20 +1,22 @@
 import { useState } from "react";
 import LongLeftArrow from "../icons/LongLeftArrow";
-import { packContent, servicehelpBottomOne,   servicehelpBottomTwo } from "../constants/constants";
-import ArrowRight from "../icons/ArrowRight";
+import {
+  packContent, 
+} from "../constants/constants"; 
+import { Link } from "react-router-dom";
 
 function EssentialPack() {
   return (
-    <section className="essential-pack-bg px-6 py-10 md:py-12 md:p-12 mb-16 rounded-3xl ">
+    <section className="essential-pack-bg px-6 py-10 md:py-12 md:p-12 mb-16 rounded-3xl mx-4 md:mx-0">
       <div className="block md:flex gap-16">
-        <div className="w-full md:w-1/3 text-white">
+        <div className="w-full flex flex-col items-center md:w-1/3 text-white">
           <p className="text-[9px] w-fit bg-yellow-300 py-1 font-bold px-2 rounded-md text-gray-800 shadow">
             LIMITED OFFER
           </p>
-          <h3 className="text-3xl py-3 font-bold text-white">
-            Startup Cloud <br /> Services Essentials <br /> Pack
+          <h3 className="text-3xl py-3 text-center font-bold text-white">
+            Startup Cloud Services Essentials Pack
           </h3>
-          <div className="p-2 bg-blue-700 text-center rounded-lg">
+          <div className="p-2 w-full bg-blue-700 text-center rounded-lg">
             <div className="border-[1px] border-solid border-gray-400 py-2 rounded-lg">
               <p className="text-[12px] text-gray-300 font-semibold">
                 <span className="text-lg text-white font-bold">$2,000</span>{" "}
@@ -32,17 +34,19 @@ function EssentialPack() {
             Get the full cloud services package at a{" "}
             <span className="font-bold">50% discount</span> now!
           </h5>
-          <p className="text-[10px] py-1 text-blue-500 italic underline cursor-pointer">
+          <p className="text-[10px] py-1 text-gray-200 italic underline cursor-pointer">
             *Terms and Conditions Apply
           </p>
-          <button className="my-4 rounded-lg hover:bg-gray-600 hover:text-white  flex items-center gap-2 text-[12px] border-[1px] border-solid border-white font-semibold px-5 py-2 text-white">
-            Contact Us <LongLeftArrow size={16} />
-          </button>
+          <Link to={"/contact"}>
+            <button className="my-4 rounded-lg hover:bg-gray-600 hover:text-white  flex items-center gap-2 text-[12px] border-[1px] border-solid border-white font-semibold px-5 py-2 text-white">
+              Contact Us <LongLeftArrow size={16} />
+            </button>
+          </Link>
         </div>
         <div className="w-full md:w-2/3 text-white">
-          <h6 className="pr-5 font-bold text-sm">
+          <h6 className="pr-5 font-bold md:text-left text-center text-sm">
             All the cloud services computing solutions your startup needs,
-            packaged for <br /> optimal performances and costs:
+            packaged for <br className="hidden md:block"/> optimal performances and costs:
           </h6>
           <div className="mt-5">
             {packContent.map((p, i) => (
@@ -50,31 +54,7 @@ function EssentialPack() {
             ))}
           </div>
         </div>
-      </div>
-      <div className="bg-gray-100 mt-10 p-10 rounded-3xl">
-      <h2 className="text-xl font-bold text-gray-800">
-        How Do Our Managed Cloud Services Help You?
-      </h2>
-      <div className="block md:flex items-center mt-8">
-        <div className="w-full md:w-2/4">
-          {servicehelpBottomOne.map((s, i) => (
-            <div key={i} className="flex items-center gap-2 text-gray-600">
-              <ArrowRight size={16}/> <h1 className="text-sm text-gray-600 py-1">{s.title}</h1> 
-            </div>
-          ))}
-        </div>
-        <div className="w-full md:w-2/4">
-          {servicehelpBottomTwo.map((s, i) => (
-            <div key={i} className="flex items-center gap-2 text-gray-600">
-              <ArrowRight size={16}/> <h1 className="text-sm text-gray-600 py-1">{s.title}</h1> 
-            </div>
-          ))}
-        </div>
-      </div>
-      <button className="mt-8 rounded-lg hover:bg-gray-600 hover:text-white  flex items-center gap-2 text-[12px] border-[1px] border-solid border-gray-600 font-bold px-5 py-3 text-gray-700">
-            Get a Free Small Business Cloud Services Assessment <div className="hidden md:block"><LongLeftArrow size={16} /></div>
-          </button>
-      </div>
+      </div> 
     </section>
   );
 }

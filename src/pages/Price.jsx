@@ -2,6 +2,7 @@ import React from "react";
 import EssentialPack from "../components/price/EssentialPack";
 import PricingHero from "../components/price/PricingHero";
 import ServiceHelp from "../components/price/ServiceHelp";
+import ManagedCloudService from "../components/price/ManagedCloudService";
 
  
 
@@ -16,6 +17,7 @@ function Price() {
             <PricingHero/>
             <ServiceHelp/>
             <EssentialPack/>
+            <ManagedCloudService/>
         </div>
     );
 }

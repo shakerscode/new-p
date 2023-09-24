@@ -30,12 +30,12 @@ export const MobileMenu = () => {
             <p className=' hover:bg-slate-100 px-4 py-2 rounded-lg font-semibold transition .4s ease-in-out hover:text-primary'>Blog</p>
           </Link>
           <Link to={'/about'} onClick={() => setIsNavOpen((prev) => !prev)} >
-            <p className=' hover:bg-slate-100 px-4 py-2 rounded-lg font-semibold transition .4s ease-in-out hover:text-primary'>About</p>
+            <p className=' hover:bg-slate-100 px-4 py-2 rounded-lg font-semibold transition .4s ease-in-out hover:text-primary'>About Us</p>
           </Link>
           <Link to={'/contact'} onClick={() => setIsNavOpen((prev) => !prev)} >
-            <p className=' hover:bg-slate-100 px-4 py-2 rounded-lg font-semibold transition .4s ease-in-out hover:text-primary'>Contact</p>
+            <p className=' hover:bg-slate-100 px-4 py-2 rounded-lg font-semibold transition .4s ease-in-out hover:text-primary'>Contact Us</p>
           </Link>
-          <Link to={'/compliances'} onClick={() => setIsNavOpen((prev) => !prev)} >
+          <Link to={'/compliance'} onClick={() => setIsNavOpen((prev) => !prev)} >
             <p className=' hover:bg-slate-100 px-4 py-2 rounded-lg font-semibold transition .4s ease-in-out hover:text-primary'>Compliances</p>
           </Link>
         </ul>
