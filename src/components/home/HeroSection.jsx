@@ -7,7 +7,7 @@ const HeroSection = () => {
 
   return (
     <section className="my-8 px-4">
-      <div className="md:h-[550px] lg:h-[550px] xl:h-[550px] h-auto mx-auto max-w-[1280px] w-full gradient-bg rounded-lg md:px-8 pt-8 md:pt-0">
+      <div className="md:h-[550px] lg:h-[550px] xl:h-[550px] h-auto mx-auto max-w-[1280px] w-full gradient-bg rounded-3xl md:px-8 pt-8 md:pt-0">
         <div className="w-full h-full flex flex-wrap md:flex-nowrap lg:flex-nowrap xl:flex-nowrap items-center justify-center gap-5">
           <div className="md:w-[50%] lg: xl:w-[50%] w-auto h-full flex items-center justify-center">
             <div className="h-[80%] flex items-center justify-start p-4 md:p-5 w-full">
