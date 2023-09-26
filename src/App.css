@@ -215,6 +215,10 @@ input:focus, textarea:focus, select:focus {
   background: rgb(146,173,226);
   background: linear-gradient(90deg, rgba(146,173,226,1) 0%, rgba(103,136,246,1) 42%, rgba(23,132,185,1) 100%);  
 }
+.content-bg{
+  background: rgb(210,240,255);
+  background: linear-gradient(90deg, rgba(210,240,255,1) 0%, rgba(160,224,255,1) 40%, rgba(77,225,255,1) 100%);   
+}
 
  
 .triangle-up {

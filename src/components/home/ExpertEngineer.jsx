@@ -7,8 +7,8 @@ export default function ExpertEngineer() {
     title3: "Expert Engineers",
   };
   return (
-    <section id="team" className="bg-[#B3B9DC] pb-24 px-4 md:px-8 w-full">
-      <div className="mx-auto max-w-[1280px] w-full">
+    <section id="team" className="  px-4 md:px-8 w-full">
+      <div className="mx-auto max-w-[1280px] w-full bg-[#B3B9DC] pb-24 rounded-3xl">
         {/* Re-used component */}
         <CommonSectionHead props={titles} />
         <div

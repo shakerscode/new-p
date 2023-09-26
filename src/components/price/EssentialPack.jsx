@@ -9,14 +9,14 @@ function EssentialPack() {
   return (
     <section className="essential-pack-bg px-6 py-10 md:py-12 md:p-12 mb-16 rounded-3xl mx-4 md:mx-0">
       <div className="block md:flex gap-16">
-        <div className="w-full flex flex-col items-center md:w-1/3 text-white">
+        <div className="w-full md:w-2/4 flex flex-col items-center text-white">
           <p className="text-[9px] w-fit bg-yellow-300 py-1 font-bold px-2 rounded-md text-gray-800 shadow">
             LIMITED OFFER
           </p>
           <h3 className="text-3xl py-3 text-center font-bold text-white">
             Startup Cloud Services Essentials Pack
           </h3>
-          <div className="p-2 w-full bg-blue-700 text-center rounded-lg">
+          <div className="p-2 w-full md:w-96 bg-blue-700 text-center rounded-lg">
             <div className="border-[1px] border-solid border-gray-400 py-2 rounded-lg">
               <p className="text-[12px] text-gray-300 font-semibold">
                 <span className="text-lg text-white font-bold">$2,000</span>{" "}
@@ -43,7 +43,7 @@ function EssentialPack() {
             </button>
           </Link>
         </div>
-        <div className="w-full md:w-2/3 text-white">
+        <div className="w-full md:w-2/4 text-white">
           <h6 className="pr-5 font-bold md:text-left text-center text-sm">
             All the cloud services computing solutions your startup needs,
             packaged for <br className="hidden md:block"/> optimal performances and costs:

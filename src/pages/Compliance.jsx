@@ -17,8 +17,8 @@ function Compliance() {
             <Location/>
             <BusinessPolicy/>
             <BlogContent/>
-            <Content/>
             <Trust/>
+            <Content/>
         </>
     );
 }
