@@ -4,7 +4,7 @@ import { speakingNumbers } from "../constants/constants";
 
 function Numbers() {
     return (
-        <section className="max-w-[1280px] mx-auto w-full bg-gray-300 rounded-xl mb-16">
+        <section className="max-w-[1280px] mx-auto w-full bg-gray-300 rounded-3xl mb-16">
             <div className="p-8">
                 <h1 data-aos="fade-up" 
             data-aos-duration="900" className="text-4xl md:py-4 text-gray-900 font-semibold">Numbers Always Speak Louder</h1>

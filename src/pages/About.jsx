@@ -5,6 +5,7 @@ import Info from "../components/about/Info"
 import WorkWithUs from "../components/about/WorkWithUs"
 import OurValue from "../components/about/OurValue"
 import Numbers from "../components/about/Numbers"
+import Video from "../components/about/Video"
 
 const About = () => {
   
@@ -17,6 +18,7 @@ const About = () => {
       <AboutTopSection />
       <OurValue />
       <Numbers />
+      <Video/>
       <WorkWithUs />
       <Follow/>
       <Info/> 

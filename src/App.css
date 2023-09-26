@@ -232,3 +232,10 @@ input:focus, textarea:focus, select:focus {
   right: 0px;
   transform: rotate(-120deg)
 }
+
+
+/* about  */
+.about-video{
+  width: 100%;
+  aspect-ratio: 16/9;
+}
